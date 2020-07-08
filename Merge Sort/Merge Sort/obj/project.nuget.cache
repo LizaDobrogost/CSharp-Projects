@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "4m//jXJh7Go9Fm4hgwZG105ZEYbNE8y1c2zWJxBu6uPKJOYbXX+14XzfxHHK2BwdJuf4Z+nfOz0tCE4yj5iV8g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LizaD\\Desktop\\C#\\Merge Sort\\Merge Sort\\Merge Sort.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LizaD\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
