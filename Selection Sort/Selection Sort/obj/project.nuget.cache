@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "eNW06MVysNCFKq+nKo8ldOHoR4w7f6+tHNgLBRcXeuvFYtc0jqoGVEg4DJNb87uVZpkwVvc5MkMkM0DMyc1jUg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LizaD\\Desktop\\C#\\Selection Sort\\Selection Sort\\Selection Sort.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LizaD\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
