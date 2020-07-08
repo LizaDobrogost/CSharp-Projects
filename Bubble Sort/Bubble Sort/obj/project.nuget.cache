@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "+YJa91iN6ZXdrarnTKBDzEVEI1gfbvHacMpdKG6EvUKtJetsjKt/mUR841TjxVwEkC1Zel/cftEm+84NIL4f/g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LizaD\\Desktop\\C#\\Bubble Sort\\Bubble Sort\\Bubble Sort.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LizaD\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
