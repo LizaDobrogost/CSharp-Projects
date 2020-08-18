@@ -1,0 +1,31 @@
+﻿<Window x:Class="PhoneDataBase.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PhoneDataBase"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Background="Azure">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="91.04" />
+        </Grid.RowDefinitions>
+        <ListBox x:Name="phonesList" ItemsSource="{Binding}" Background="AliceBlue">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="{Binding Title}" FontSize="16" />
+                        <TextBlock Text="{Binding Company}" FontSize="12" />
+                        <TextBlock Text="{Binding Price}" FontSize="13" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Width="222">
+            <Button Content="Добавить" Margin="10" Click="Add_Click" Background="AntiqueWhite"/>
+            <Button Content="Изменить" Margin="10" Click="Edit_Click" Background="AntiqueWhite" />
+            <Button Content="Удалить" Margin="10" Click="Delete_Click" Width="56" Background="AntiqueWhite" />
+        </StackPanel>
+    </Grid>
+</Window>
